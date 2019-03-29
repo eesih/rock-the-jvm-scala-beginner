@@ -36,5 +36,5 @@ object Objects extends App {
 
   //Scala applications = Scala objects
   //def main (args: Arrays[String]): Unit
-  
+
 }
