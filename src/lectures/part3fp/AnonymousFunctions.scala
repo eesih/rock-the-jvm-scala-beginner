@@ -25,5 +25,4 @@ object AnonymousFunctions extends App{
   val niceAdder: (Int, Int) => Int = _ + _ //equivalent to (a,b) => a + b
 
 
-
 }
