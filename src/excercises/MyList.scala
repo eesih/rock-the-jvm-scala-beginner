@@ -147,4 +147,12 @@ object Test extends App {
   println(listOfInts.fold(0)( _ + _))
 
   //println(listOfInts.flatMap((elem: Int) => new Cons(elem, new Cons(elem + 1, Empty))).toString)
+
+
+  val combinations = for {
+    i <- listOfInts
+    s <- listOfStrings
+  } yield i + "-" + s
+
+  println(combinations)
 }
